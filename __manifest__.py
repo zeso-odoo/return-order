@@ -18,6 +18,7 @@
         'stock'
     ],
     'data': [
+        'security/ir.model.access.csv',
         'views/res_config_settings_views.xml',
         'views/templates.xml',
     ],

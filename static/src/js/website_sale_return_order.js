@@ -184,9 +184,8 @@ export class ReturnorderDialog extends Component {
         debugger      
         console.log("Custom called..............")
         await this.orm.call(
-            "stock.return.picking",
-            "create_returns",
-            [this.props.orderId]
+            "return_order",
+            "prepare_order"
         )
     }
 }

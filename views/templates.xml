@@ -4,7 +4,7 @@
             <li t-if="request.website.enabled_portal_return_order_button" class="list-group-item flex-grow-1">
                 <button class="btn btn-primary w-100 o_wsale_return_order_button" t-att-data-sale-order-id="sale_order.id">
                     <i class="fa fa-rotate-right me-1"/>
-                    Return Order 
+                    Return Order  
                 </button>
             </li>
         </xpath>
